@@ -23,7 +23,6 @@ while True:
     operations = choice.split()
 
     if mode == '1':
-        # 🔹 NORMAL MODE
         for op in operations:
 
             if op == '1':
@@ -45,7 +44,6 @@ while True:
                 print("Invalid operation:", op)
 
     elif mode == '2':
-        # 🔥 CHAIN MODE
         result = num1
 
         for op in operations:
@@ -78,4 +76,5 @@ while True:
 
     if again.lower() == 'no':
         print("Calculator closed.")
+
         break
